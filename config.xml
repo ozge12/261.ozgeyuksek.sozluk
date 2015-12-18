@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "me.ozgeyuksek.sozluk"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- Standart Uygulama Verileri -->
+
+    <name>BBY alanı Sözlüğü </name>
+
+    <description>
+         basit bir sözlük uygulaması
+    </description>
+
+    <author  email="ozge.yuksek12@gmail.com">
+        Özge Yüksek
+    </author>
+        
+    <!-- Derleme Platformu -->
+        
+    <gap:platform name="android" />
+        
+    <!-- Ek Özellikler -->
+
+    <preference name="orientation" value="landscape" />
+    <preference name="fullscreen" value="false" />
+        
+    <!-- İkon -->
+     
+    <icon src="1449939610_accessories-dictionary.png" />
+        
+    <!-- Uygulama Hakları -->
+    
+    <preference name="permissions" value="none"/>
+        
+</widget>
